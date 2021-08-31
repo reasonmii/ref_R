@@ -1,5 +1,3 @@
-
-
 # Generate a fake dataset that we can use in the demonstration
 # A matrix of data with 10 samples where we measured 100 genes in each sample
 data.matrix <- matrix(nrow=100, ncol=10)
