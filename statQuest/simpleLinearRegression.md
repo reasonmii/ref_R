@@ -14,7 +14,7 @@ abline(mouse.regression, col="blue")
 
 ### Summary Interpretation
 
-##### Call
+##### Call:
 The first line just prints out the original call to the lm() function
 
 ##### Residuals:
