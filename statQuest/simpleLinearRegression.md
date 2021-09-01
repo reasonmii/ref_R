@@ -30,7 +30,7 @@ abline(mouse.regression, col="blue")
 - Lastly, Pr(>|t|) parts are the p-values for the estimated parameters<br/>Generally speaking, we are usually not interested in the intercept, so it doesn’t matter what its p-value is<br/>However, we want the p-value for “weight” to be < 0.05<br/>That is, we want it to be statistically significant<br/>A significant p-value for weight means that it will give us a reliable guess of mouse size<br/>If you’re unable to read the actual p-value, but could, for some reason, see the star to its right, then these codes would give you a sense of what the p-value was
 
 **Multiple R-squared is just R2 as we describe it in the StatQuest on Linear Regression**
-</br>**It means that weight can explain 61% of the variation in size. This is good!
+</br>It means that weight can explain 61% of the variation in size. This is good!
 
 **Generally speaking, the Adjusted R-squared is the R2 scaled by the number of parameters in the model**
 
