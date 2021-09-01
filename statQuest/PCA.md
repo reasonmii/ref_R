@@ -185,3 +185,4 @@ then we see which genes have negative loading scores, these push the "wt" sample
 ```{r}
 pca$rotation[top_10_genes,1]
 ```
+
