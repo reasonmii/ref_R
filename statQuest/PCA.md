@@ -77,7 +77,7 @@ plot(pca$x[,1], pca$x[,2])
 </br>To get a sense of how meaningful these clusters are,
 </br>let's see how much variation in the original data PC1 accounts for
 
-</br>To do this, we use the square of "sdev"
+To do this, we use the square of "sdev"
 </br>which stands for "standard deviation",
 </br>to calculate how much variation in the original data each principal component accounts for
 
