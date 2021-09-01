@@ -18,13 +18,13 @@ abline(mouse.regression, col="blue")
 The first line just prints out the original call to the lm() function
 
 **Residuals**
-⋅⋅⋅This is a summary of the residuals (the distance from the data to the fitted line)
-⋅⋅⋅Ideally, they should be symmetrically distributed around the line
+<br/>This is a summary of the residuals (the distance from the data to the fitted line)
+<br/>Ideally, they should be symmetrically distributed around the line
 
 **Coefficients**
 
 - This first section tells us about the least-squares estimates for the fitted line
-⋅⋅⋅The first line is for the intercept, and the second line is for the slope<br/>ex) size = 0.5813 + 0.7778 * weight
+<br/>The first line is for the intercept, and the second line is for the slope<br/>ex) size = 0.5813 + 0.7778 * weight
 
 - Residual standard error is the square root of the denominator in the equation for F<br/>The standard error of the estimates and the “t value” are both provided to show you how the p-values were calculated
 
