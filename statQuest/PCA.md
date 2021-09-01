@@ -1,9 +1,10 @@
 **Generate a fake dataset that we can use in the demonstration**
-</br>A matrix of data with 10 samples where we measured 100 genes in each sample
+A matrix of data with 10 samples where we measured 100 genes in each sample
 
 ```{r}
 data.matrix <- matrix(nrow=100, ncol=10)
 ```
+
 
 **name the samples**
 </br>The first 5 samples will be "wt" or "wild type" samples
@@ -77,7 +78,7 @@ plot(pca$x[,1], pca$x[,2])
 </br>To get a sense of how meaningful these clusters are,
 </br>let's see how much variation in the original data PC1 accounts for
 
-</br></br>To do this, we use the square of "sdev"
+</br>To do this, we use the square of "sdev"
 </br>which stands for "standard deviation",
 </br>to calculate how much variation in the original data each principal component accounts for
 
