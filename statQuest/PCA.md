@@ -103,7 +103,7 @@ barplot(pca.var.per, main="Scree Plot", xlab="Principal Component", ylab="Percen
 </br>This means that there is a big difference between two clusters
 </br>(5 on the left and 5 on the right)
 
-</br>We can use ggplot2 to make a fancy PCA plot that looks nice
+We can use ggplot2 to make a fancy PCA plot that looks nice
 </br>and also provides us with tons of information
 
 ```{r}
