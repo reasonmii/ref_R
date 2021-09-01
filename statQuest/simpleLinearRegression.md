@@ -15,7 +15,7 @@ abline(mouse.regression, col="blue")
 # Summary Interpretation
 
 **Call**
-The first line just prints out the original call to the lm() function
+<br/>The first line just prints out the original call to the lm() function
 
 **Residuals**
 <br/>This is a summary of the residuals (the distance from the data to the fitted line)
@@ -23,8 +23,7 @@ The first line just prints out the original call to the lm() function
 
 **Coefficients**
 
-- This first section tells us about the least-squares estimates for the fitted line
-<br/>The first line is for the intercept, and the second line is for the slope<br/>ex) size = 0.5813 + 0.7778 * weight
+- This first section tells us about the least-squares estimates for the fitted line<br/>The first line is for the intercept, and the second line is for the slope<br/>ex) size = 0.5813 + 0.7778 * weight
 
 - Residual standard error is the square root of the denominator in the equation for F<br/>The standard error of the estimates and the “t value” are both provided to show you how the p-values were calculated
 
