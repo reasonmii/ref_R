@@ -1,0 +1,5 @@
+library(caTools)
+set.seed(123)
+split = sample.split(data$y, SplitRatio = 0.7)
+train = subset(data, split == TRUE)
+test = subset(data, split == FALSE)
