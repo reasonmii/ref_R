@@ -1,6 +1,6 @@
+# Similar Functions : cut(), ifesle(), within()
 
-# Function to use : cut(), ifesle(), within()
-
+# How to Convert Continuous variables to Categorical variables
 # include.lowest = TRUE : Convert even if the value is equal to the minimum
 # right = TRUE : a < x <= b
 # right = FALSE : a <= x <b
