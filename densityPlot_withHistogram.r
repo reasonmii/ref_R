@@ -30,3 +30,6 @@ ggplot(plotDT, aes(x=X, fill=Y))+
   theme(plot.title=element_text(size=12))+
   theme(plot.subtitle=element_text(size=9, color="blue"))
 
+
+statRes <- cbind(xName, statDT)
+
