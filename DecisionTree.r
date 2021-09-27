@@ -1,6 +1,7 @@
 
 # cf1) https://cran.r-project.org/web/packages/rpart.plot/rpart.plot.pdf
 # cf2) http://www.milbo.org/rpart-plot/prp.pdf
+# cf3) https://www.rdocumentation.org/packages/rpart.plot/versions/3.1.0/topics/rpart.plot
 
 library(rpart)
 library(rpart.plot)
