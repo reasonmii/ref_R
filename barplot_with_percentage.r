@@ -67,5 +67,13 @@ pcnt2$sex <- 'male'
 mg <- rbind(pcnt1, pcnt2)
 
 
+# ---------------------------------------------------------------------
+# Add column for cumulative sum of each category
+# This is for ggplot's labeling's position
+# ---------------------------------------------------------------------
 
+mg <- ddply(mg,
+            .(seg),
+            transform,
+            pos = cumsum(pcnt))
 
