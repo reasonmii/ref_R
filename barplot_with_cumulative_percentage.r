@@ -102,6 +102,6 @@ labs(x="SEG", y="Percentage")
 
 
 
-
+https://t-redactyl.io/blog/2016/01/creating-plots-in-r-using-ggplot2-part-4-stacked-bar-plots.html
 
 
