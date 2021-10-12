@@ -72,8 +72,36 @@ mg <- rbind(pcnt1, pcnt2)
 # This is for ggplot's labeling's position
 # ---------------------------------------------------------------------
 
+# transform() : 연산결과를 다른 변수에 저장
 mg <- ddply(mg,
             .(seg),
             transform,
             pos = cumsum(pcnt))
+
+
+# ---------------------------------------------------------------------
+# Cumulative Percentage Plot
+# ---------------------------------------------------------------------
+
+# Cumultive part's color
+fill <- c("", "", "")
+
+ggplot()+
+ geom_bar(aes(y=pcnt, x=seg, fill=sex), data=mg, stat="identity")+
+ geom_text(data=mg,
+           aes(x=seg, y=pos, label=paste0(round(pcnt*100),"%")),
+           colour="black",
+           family="Tahoma",
+           size=4)+
+theme(legend.position="bottom",
+      legend.direction="horizontal",
+      legend.title=element_blank())+
+labs(x="SEG", y="Percentage")
+
+
+
+
+
+
+
 
