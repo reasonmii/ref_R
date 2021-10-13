@@ -84,24 +84,35 @@ mg <- ddply(mg,
 # ---------------------------------------------------------------------
 
 # Cumultive part's color
-fill <- c("", "", "")
+fill <- c("#ffa8a8", "#91af77")
 
-ggplot()+
+# axis.line : x-axis, y-axis line
+
+# grid.major : X line and y line in graph
+# grid.minor : X line and y line in graph (dense line)
+# Option : element_line(colour = "black") / element_line(color='red') / element_blank()
+
+ggplot(data=mg, aes(x=seg, y=pcnt, fill=sex, label=pcnt)+
  geom_bar(aes(y=pcnt, x=seg, fill=sex), data=mg, stat="identity")+
  geom_text(data=mg,
            aes(x=seg, y=pos, label=paste0(round(pcnt*100),"%")),
            colour="black",
            family="Tahoma",
+           position=position_stack(vjust=0.5),
            size=4)+
-theme(legend.position="bottom",
-      legend.direction="horizontal",
-      legend.title=element_blank())+
-labs(x="SEG", y="Percentage")
-
-
-
-
-
-https://t-redactyl.io/blog/2016/01/creating-plots-in-r-using-ggplot2-part-4-stacked-bar-plots.html
-
-
+ theme(legend.position="bottom",
+       legend.direction="horizontal",
+       legend.title=element_blank())+
+ labs(x="SEG", y="Percentage")+
+ ggtitle("Compare Percentage (%)")+
+ scale_fill_manual(values=fill)+
+ theme(axis.line = element_line(size=1, colour="black"),
+       panel.grid.major = element_line(colour="#d3d3d3"),
+       panel.grid.minor = element_blank(),
+       panel.border = element_blank(),
+       panel.background = element_blank())+
+ theme(plot.title = element_text(size=14, family="Tahoma", face="bold"),
+       text=element_text(family="Tahoma"),
+       axis.text.x = element_text(colour="black", size=10),    # x label
+       axis.text.y = element_text(colour="black", size=10))+   # y label
+       
