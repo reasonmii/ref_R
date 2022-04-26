@@ -1,4 +1,7 @@
 
+# 중복 없이 개수 세기
+sum(!duplicated(data[,c("userid")]))
+
 # 중복된 행 : TRUE 반환
 # 중복X 행 : FALSE 반환
 
