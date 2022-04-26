@@ -1,5 +1,6 @@
 
 # 중복 없이 개수 세기
+sum(!duplicated(data$userid))
 sum(!duplicated(data[,c("userid")]))
 
 # 중복된 행 : TRUE 반환
