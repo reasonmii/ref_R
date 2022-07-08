@@ -1,5 +1,5 @@
 shortcut
-- # : Ctrl + Shift + C
+- \# : Ctrl + Shift + C
 
 Difference between library and require
 - https://www.r-bloggers.com/2016/12/difference-between-library-and-require-in-r/
