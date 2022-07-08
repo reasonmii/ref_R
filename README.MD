@@ -1,5 +1,7 @@
 <b>sites</b>
-- https://rpubs.com/chidungkt/449576
+- 함수 정리 : https://doublet7411.blog.me/221487333230
+- Training and Turning Parameters for Random Forest Using h2o Package
+  - https://rpubs.com/chidungkt/449576
 
 <b>shortcut</b>
 - \# : Ctrl + Shift + C
