@@ -1,7 +1,10 @@
-### shortcut
+<b>sites</b>
+- https://rpubs.com/chidungkt/449576
+
+<b>shortcut</b>
 - \# : Ctrl + Shift + C
 
-### Difference between library and require
+<b>Difference between library and require</b>
 - https://www.r-bloggers.com/2016/12/difference-between-library-and-require-in-r/
 - require() : used inside functions
   - it gives a warning message and returns a logical value
